@@ -8,6 +8,7 @@
     "bundle": "webpack -w",
     "start:dev": "nodemon -r babel-register index.js",
     "babel": "babel src -d dist",
+    "build": "webpack",
     "heroku-postbuild": "npm install --only=dev && npm run babel && npm run build -p"
   },
   "author": "",
