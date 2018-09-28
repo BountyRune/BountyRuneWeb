@@ -1,0 +1,37 @@
+body, #app {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(#191308, #322A26);
+  font-family: 'Lato', sans-serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  overflow: hidden;
+  background-color: #454B66;
+  padding: 20px 20px;
+  height: 10%;
+}
+
+.menu {
+  color: white;
+  text-decoration: none;
+}
+
+#menus {
+  display: flex;
+  margin-left: 60%;
+  margin-right: 30px;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+}
